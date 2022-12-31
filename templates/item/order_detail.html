@@ -33,7 +33,8 @@
     </tbody>
 </table>
 
-<form method="post" action="{% url 'order.status' pk %}">
+<form method="post" action="{% url 'order.status' pk %}" class="border border-dark">
+<br>
 {% csrf_token %}
 <b>{{form}}</b>
 <button class="btn btn-success btn-sm" type="submit">Change</button>

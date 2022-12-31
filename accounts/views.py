@@ -4,6 +4,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect, render
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.models import User
 #Import from the third library
 #Import from local app/library
 from item.models import Customer
@@ -42,7 +43,13 @@ def user_signup(request):
         print(request.POST)
         form = RegistreationForm(request.POST)
         if form.is_valid():
-            form.save()
+            usr = form.cleaned_data['username']
+            first_name = form.cleaned_data['first_name']
+            last_name = form.cleaned_data['last_name']
+            email = form.cleaned_data['email']
+            user=User.objects.create(username=usr,first_name=first_name,last_name=last_name,email=email)  
+            user.set_password(form.cleaned_data['password'])
+            user.save()
             messages.success(request, f'Your account has been created ! You are now able to log in')
             return redirect('login')
     else:
