@@ -1,0 +1,17 @@
+<form method="post" action="{% url 'item.delete' item.id %}" class="">
+    {% csrf_token %}
+    <div class="modal-header">
+      <h4 class="modal-title">Confirm Item Deletion</h4>
+      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      
+    </div>
+    <div class="modal-body">
+      <p class="lead">Are you sure you want to delete the item <strong>{{ item.title }}</strong>?</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+      <button type="submit" class="btn btn-danger" id="btn3" data-item-id="">Delete Item</button>
+    </div>
+  </form>

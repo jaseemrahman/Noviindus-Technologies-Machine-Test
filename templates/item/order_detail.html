@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 style="color: blue;"><b>Order ID:{{pk}}</b></h1>
+    <b>{{today}}</b>
+    <hr>
+<table class="table" id="">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Total Amount(Rs)</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td style="color: green;"><b>{{ pk}}</b></td>
+    </tr>
+    {% for order_detail in order_details %}
+    <tr>
+    <td></td>
+    <td>{{ order_detail.product}}</td>
+    <td>{{ order_detail.qty }}</td>
+    <td>{{ order_detail.total }}</td>
+    </tr>
+  
+{% empty %}
+  <tr>
+    <td colspan="7" class="text-center bg-warning">There is no orders</td>
+  </tr>
+  {% endfor %}
+
+    </tbody>
+</table>
+
+<form method="post" action="{% url 'order.status' pk %}">
+{% csrf_token %}
+<b>{{form}}</b>
+<button class="btn btn-success btn-sm" type="submit">Change</button>
+</form>
+{% endblock %}

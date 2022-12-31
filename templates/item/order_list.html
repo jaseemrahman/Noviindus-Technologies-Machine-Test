@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 style="color: blue;"><b>Orders</b></h1>
+    <h6>{{today}}</h6>
+    <h6>USER: {{user}}</h6>
+    <hr>
+<table class="table" id="">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer ID</th>
+            <th>Ordered Date</th>
+            <th>Order Status</th>
+  
+        </tr>
+    </thead>
+    <tbody>
+        {% for order in orders %}
+    <tr>
+    <td style="color: green;"><b><a href="{% url 'order.detail' order.id %}">{{ order.id}}</a></b></td>
+    <td>{{ order.customer}}</td>
+    <td>{{ order.order_date}}</td>
+    <td>{{ order.order_status }}</td>
+    </tr>
+ 
+  
+{% empty %}
+  <tr>
+    <td colspan="7" class="text-center bg-warning">There is no orders</td>
+  </tr>
+  {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

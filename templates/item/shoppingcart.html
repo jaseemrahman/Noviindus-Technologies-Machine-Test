@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block javascript %}
+    <script src="{% static 'js/order.js' %}"></script>
+  
+{% endblock %}
+
+{% block content %} 
+<table class="table" id="cart-table">
+  
+    <thead>
+        <tr>
+            <th>Image</th>
+            {% comment %} <th>ID</th> {% endcomment %}
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total Amount</th>
+        </tr>
+    </thead>
+    {% for item in items %}
+    <tr>
+        {% if item.img %}
+        <td>
+            <img src="{{item.img.url}}" alt="{{item.title}}"  class="img-fluid" width="80px" />
+        </td>
+        {%else%}
+        <td></td>
+        {%endif%}
+        {% comment %} <td>{{ item.id }}</td> {% endcomment %}
+        <td><a href="{% url 'item.view' item.id %}" style="color:black;text-decoration: none;">{{ item.title }}</a></td>
+        <td>{{ item.Qty }}</td>
+        <td>{{ item.Price }} Rs</td>
+        <td>{{ item.total_price }} Rs</td>
+        <td><form action="/removefromcart">
+            <input type="hidden"  name="productid" value="{{item.id}}">
+            <button type="submit"
+                class="btn btn-danger btn-sm">
+                <i class="fa-solid fa-trash"></i>
+            </button>
+        </form>
+        </td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="7" class="text-center bg-warning">There is no item in the cart</td>
+    </tr>
+    {% endfor %}
+    <tbody>
+        
+    </tbody>
+</table>
+<div style="color:blue;">
+    <h4><b>Total Quantity: <span>{{total_quantity}} </sapn></b></h4>
+    <h4><b>Full Cart Amount: <span>{{full_amount}} </span>Rs</b></h4>
+    </div>
+    <hr>
+    <form action="{% url 'cart.order'%}" id="placeorder">
+        <button type="button"
+        class="btn btn-success btn-sm js-order-item"
+        data-url="{% url 'cart.order' %}">
+        <i class="fa-solid fa-cart-plus"></i> Place Order
+        </button>
+    </form>
+
+<!-- THE MODAL WE WILL BE USING -->
+<div class="modal fade" id="modal-cart">
+    <div class="modal-dialog">
+      <div class="modal-content"></div>
+    </div>
+</div>    
+
+{% endblock %} 
+
+  

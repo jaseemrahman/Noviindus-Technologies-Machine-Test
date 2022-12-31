@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block javascript %}
+    <script src="{% static 'js/item.js' %}"></script>
+  
+{% endblock %}
+{% block content %}
+<div class="card" style="width: 50rem;">
+    
+    <div class="card-body" id="item_view">
+    {% comment %} <h3><b>ID:            {{item.id}}</b></h3> {% endcomment %}
+    {% if item.image %}
+    <img src="{{item.image.url}}" alt="{{item.image}}" class="img-fluid" width="250px"/>
+    {%endif%}
+    <h3><b> {{item.title}}</b></h3>
+    <h3><b>Amount:         {{item.price}} Rs</b></h3>
+    <table class="table" id="menu-table">
+      <thead>
+          <tr>
+            {% if user.is_authenticated %}
+         
+              <th><a href="{% url 'item.update' item.id %}"><button type="button"
+                class="btn btn-warning btn-sm">
+                <i class="fa-solid fa-pen-to-square"></i> Edit
+          </button></a></th>
+              <th><button type="button"
+                class="btn btn-danger btn-sm js-delete-item"
+                data-url="{% url 'item.delete' item.id %}">
+                <i class="fa-solid fa-trash"></i> Delete
+                </button></th>
+              <th><form action="/addtocart">
+                <input type="hidden"  name="productid" value="{{item.id}}">
+                <input class="btn btn-light btn-sm" type="number" value="1" min="1" max="5" name="qty">
+                <button class="btn btn-success btn-sm" type="submit"><i class="fa-solid fa-cart-plus"></i>Add To Cart</button>
+            </form></th>
+        
+          {% else %}
+          <p class="navbar-brand" style="color: green;">You are not logged in</p>
+          {% endif %}
+          </tr>
+      </thead>
+  
+      <tbody>
+          
+      </tbody>
+  </table>
+    
+    
+    
+
+  </div>
+
+  
+<!-- THE MODAL WE WILL BE USING -->
+<div class="modal fade" id="modal-menu">
+  <div class="modal-dialog">
+    <div class="modal-content"></div>
+  </div>
+</div>
+{%endblock%}
+
