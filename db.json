@@ -1,0 +1,889 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$u98RQpimY0HNfBOp1xH4B3$Aa8MEyulJxbs5VWeYG8UiUVOP++Lh3/xbrZZlncQzP4=",
+        "last_login": "2023-01-02T06:06:17.370Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-30T10:17:20.445Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$tfVwRUzjL0bZAGpdJA0vPc$QbN7RyoyyrGMEItTkG1CBLG5jH8qpKhEsib5ZWY4lAY=",
+        "last_login": "2022-12-31T10:19:52.961Z",
+        "is_superuser": true,
+        "username": "jaseem",
+        "first_name": "",
+        "last_name": "",
+        "email": "jaseemrahmanjr@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-30T10:30:24Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "JR@9846673939",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "john",
+        "first_name": "",
+        "last_name": "",
+        "email": "jaseemgazal@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-30T16:39:33.664Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "JR@9846673939",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "devin",
+        "first_name": "",
+        "last_name": "",
+        "email": "jaseemrahmanjr@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-30T16:52:31Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "JR@9846673939",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "kevin",
+        "first_name": "kevin",
+        "last_name": "pk",
+        "email": "jaseemgazal@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-30T17:37:27.370Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$8MzZf8WU66UBO68engA34W$8EXW8HNnpfBLm3dcQg6HTf/LERdhoMSBDf2d6N/wbN4=",
+        "last_login": "2022-12-31T12:48:51.563Z",
+        "is_superuser": false,
+        "username": "jaseemrahman",
+        "first_name": "Jaseem",
+        "last_name": "Rahman",
+        "email": "jaseemrahmanjr@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-31T12:48:35.353Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$WugPAXyexKslKHmZhE5FxB$XMj/W6vYSsHPK556rfEy90sv0r6fbtza54e8mOlFam0=",
+        "last_login": "2022-12-31T12:56:46.438Z",
+        "is_superuser": false,
+        "username": "johndavid",
+        "first_name": "JOHN",
+        "last_name": "DAVID",
+        "email": "johndavid@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-12-31T12:56:29.748Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4ac0dck66luj5dzuwz8e5r36bef5xmhn",
+    "fields": {
+        "session_data": "e30:1pBD0C:Ven8VRTnafHhDao5AFgnF_U8__2NgAfSjmOKdennLXc",
+        "expire_date": "2023-01-13T10:52:40.608Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "674ps2dp4nvoc0zm6l2sqkjpfcqp0e1t",
+    "fields": {
+        "session_data": "e30:1pBIjU:fW-tQshCwzvHSOaC-8n61NOyIsGE54rv8nnvZluSqHA",
+        "expire_date": "2023-01-13T16:59:48.062Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "76qn9ou4g7xbpv3wshdiyaucqpthz8ml",
+    "fields": {
+        "session_data": "e30:1pBIjz:ktBtjp-XP2A7DHfrnuFRRWb2F3qIDzrw7zeamUdc_Fs",
+        "expire_date": "2023-01-13T17:00:19.073Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8m90w5w7tg9sc56yfu0nkf4saieaj1tc",
+    "fields": {
+        "session_data": "e30:1pBCxl:T1I4EPkdSdsZexmbFTRcItZnGLXM9_J1jzzV8ukAPaE",
+        "expire_date": "2023-01-13T10:50:09.729Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "aak6yqkbsr08kjhy74vtpvk0azzogd1g",
+    "fields": {
+        "session_data": "e30:1pBCvw:67oK2Zg5XYWwMzyVpU4lvsfUSVewRJshBKhzHOL-POE",
+        "expire_date": "2023-01-13T10:48:16.849Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "daz93llpff28mbz42v37awtqwcnusc4s",
+    "fields": {
+        "session_data": ".eJxVjL0OgzAQg9_lZhQBlx_C2L3PgC6XpNBWIIUwId69UGVoB8uSP9s7MKXsKRP0OzTQn6qgLY5fPyoYaMvjsK0hDZMv8CdzxK8wX8A_aX4sgpc5p8mJqyIKXcV98eF9K92_g5HW8VzXmrkhb1uHaGInLdahJYVKEqE0mpXSTqFWHHVwOnbBGVPbYG2M0mEHxwdmakBn:1pBI3J:BcEhOVT2YfbkFf2wUOy7p1yGBT-fR6eQ_Xl-I7qvZbk",
+        "expire_date": "2023-01-13T16:16:13.404Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kjm9kanqfawgvozuyilbl9cfm2h5s8ku",
+    "fields": {
+        "session_data": "e30:1pBDuM:AVpE_7CQ0AAG9VevaA2QJHpr2mK7bFUss4iFZv6jjVg",
+        "expire_date": "2023-01-13T11:50:42.921Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l4vc636ba64dgav4l5ogh6nqgmdgw20s",
+    "fields": {
+        "session_data": "e30:1pBIWM:Rqs0d8LrVhbLqf-aYoaOcbyP9Gr1LdW8llF22TUYG7A",
+        "expire_date": "2023-01-13T16:46:14.104Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ly3p6b3zfdpip937x75o2f44bg92hxwt",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGllO1l9Kes5g7dprHECOFCcV4u4QKQW0b2beS0Tc1hq3zkucsjiLQZx-N8L04LaDfMd2m2Wa27pMJHdFHrTL65z5eTncv4OKvX5rZVMaMIeRAFzxOoDiEQ0YjQja2WSMJQPWpGKZbPFMzqnAIZSiCbx4fwDV3De6:1pCDxh:qsz9caUUpGc3MYjKe8dlO_hHGjQJntEZuB8_XiaIFDk",
+        "expire_date": "2023-01-16T06:06:17.383Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "orubxsh39z5s4vfkv71y9a0u62u82ko2",
+    "fields": {
+        "session_data": "e30:1pBIaY:YR0OUcrlcHTVsYp_QqTAd2mwybYrMDHehse4LVucX2I",
+        "expire_date": "2023-01-13T16:50:34.357Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qygqk8rxyvfpjf7ijmqk4zb4o5si1nqq",
+    "fields": {
+        "session_data": "e30:1pBIWG:iR_FzbfA_TS3n27zzrXE83aNns4m6qP62fmBEsAsYxU",
+        "expire_date": "2023-01-13T16:46:08.955Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "thfkkt1vtvlov3wlnsbkkxcklfvu4ihb",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQRO-ydWThD98yfc6Axrt2IIlAAlMh7h4jUSTVSPNm3k49tjT02xqWfhTqyGi6_ZYe_A7TSeSF6Tkrnqe0jF6dE3XRVT1mCZ_7tf0TDFiH_I5FqVHVpbWeXXDMcI0ragmNmFYjclUaXxiGNpnAia9hfetDjNaislnKWJIggbqddFa63Jmcmo7jC_AXQAY:1pBs1e:nEGZDOBnzdMG3OZ-XG-xQHwiOSo9Fae1RK08q97pOCc",
+        "expire_date": "2023-01-15T06:40:54.515Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ytxsiqt9gppfdptve2ppxu1meynycqe5",
+    "fields": {
+        "session_data": "eyJjYXJ0ZGF0YSI6eyIxIjoiMSJ9fQ:1pBY1D:P-u_olVUgfL1h1pdVfMAGEwfgSiNxEnfgDoqpA8FtG8",
+        "expire_date": "2023-01-14T09:19:07.076Z"
+    }
+},
+{
+    "model": "item.product",
+    "pk": 1,
+    "fields": {
+        "title": "Apple iPhone 14 Pro 128GB Silver",
+        "image": "product/61lKQWyMdDL._SX679_.jpg",
+        "price": "129000.00"
+    }
+},
+{
+    "model": "item.product",
+    "pk": 2,
+    "fields": {
+        "title": "Apple iPhone 13 (256GB) - (Product) RED",
+        "image": "product/315oQlfQ6WL._SX300_SY300_QL70_FMwebp_.webp",
+        "price": "69000.00"
+    }
+},
+{
+    "model": "item.product",
+    "pk": 3,
+    "fields": {
+        "title": "Apple iPhone 13 Pro (128GB) - Graphite",
+        "image": "product/61eDXs9QFNL._SX679_.jpg",
+        "price": "105900.00"
+    }
+},
+{
+    "model": "item.customer",
+    "pk": 1,
+    "fields": {
+        "name": "Jaseem",
+        "address": "GAZAL (HO),MEPPAYUR (PO),KOZHIKODE",
+        "mail_id": "jaseemrahmanjr@gmail.com"
+    }
+},
+{
+    "model": "item.customer",
+    "pk": 2,
+    "fields": {
+        "name": "Rahman",
+        "address": "GAZAL (HO),MEPPAYUR (PO),KOZHIKODE",
+        "mail_id": "jaseemrahmanjr@gmail.com"
+    }
+},
+{
+    "model": "item.customer",
+    "pk": 3,
+    "fields": {
+        "name": "Jaseem Rahman",
+        "address": "GAZAL (HO),MEPPAYUR (PO),KOZHIKODE",
+        "mail_id": "jaseemrahmanjr@gmail.com"
+    }
+},
+{
+    "model": "item.order",
+    "pk": 1,
+    "fields": {
+        "customer": 1,
+        "order_status": 1,
+        "user": [
+            "jaseem"
+        ],
+        "order_date": "2022-12-30"
+    }
+},
+{
+    "model": "item.order",
+    "pk": 2,
+    "fields": {
+        "customer": 2,
+        "order_status": 0,
+        "user": [
+            "jaseem"
+        ],
+        "order_date": "2022-12-30"
+    }
+},
+{
+    "model": "item.order",
+    "pk": 3,
+    "fields": {
+        "customer": 3,
+        "order_status": 1,
+        "user": [
+            "jaseem"
+        ],
+        "order_date": "2022-12-31"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 1,
+    "fields": {
+        "order_id": 1,
+        "product": 1,
+        "qty": 1,
+        "total": "129000.00"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 2,
+    "fields": {
+        "order_id": 1,
+        "product": 2,
+        "qty": 5,
+        "total": "345000.00"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 3,
+    "fields": {
+        "order_id": 2,
+        "product": 1,
+        "qty": 1,
+        "total": "129000.00"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 4,
+    "fields": {
+        "order_id": 2,
+        "product": 2,
+        "qty": 1,
+        "total": "69000.00"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 5,
+    "fields": {
+        "order_id": 2,
+        "product": 3,
+        "qty": 1,
+        "total": "105900.00"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 6,
+    "fields": {
+        "order_id": 3,
+        "product": 1,
+        "qty": 3,
+        "total": "387000.00"
+    }
+},
+{
+    "model": "item.orderdetail",
+    "pk": 7,
+    "fields": {
+        "order_id": 3,
+        "product": 2,
+        "qty": 3,
+        "total": "207000.00"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-12-30T10:24:51.323Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Apple iPhone 14 Pro 128GB Silver",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-12-30T10:25:42.310Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "Apple iPhone 13 (256GB) - (Product) RED",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-12-30T10:26:26.934Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Apple iPhone 13 Pro (128GB) - Graphite",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-12-30T10:42:31.613Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "jaseem",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-12-30T16:34:36.096Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "jaseem",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-12-30T16:34:57.253Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "order"
+        ],
+        "object_id": "2",
+        "object_repr": "2-Rahman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-12-30T16:35:05.689Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "order"
+        ],
+        "object_id": "2",
+        "object_repr": "2-Rahman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-12-30T16:35:13.287Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "order"
+        ],
+        "object_id": "1",
+        "object_repr": "1-Jaseem",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-12-30T16:35:26.360Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "item",
+            "order"
+        ],
+        "object_id": "2",
+        "object_repr": "2-Rahman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-12-30T17:02:38.169Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "devin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-12-30T17:10:45.912Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "raj",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-12-30T17:14:52.121Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "abcdefgh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-12-30T17:14:52.140Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "kevin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-12-30T17:14:52.152Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "rahul",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-12-30T17:14:52.161Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "raj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-12-31T05:20:57.462Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "qwert",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-12-31T09:37:15.973Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "jaseemrahman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-12-31T11:38:55.590Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "jaseemrahman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-12-31T11:39:15.750Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "jaseemrahman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.306Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "jaseemrahman",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.331Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "testuser",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.347Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "14",
+        "object_repr": "testuser2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.360Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "15",
+        "object_repr": "testuser3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.377Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "16",
+        "object_repr": "testuser5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.396Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "17",
+        "object_repr": "testuser6",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-12-31T12:47:52.413Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "xyz",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-12-31T12:55:20.732Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "19",
+        "object_repr": "test",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-12-31T12:55:20.760Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "20",
+        "object_repr": "test2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
